@@ -1,0 +1,6 @@
+﻿node_modules/
+dist/
+coverage/
+.vite/
+playwright-report/
+lhci_reports/

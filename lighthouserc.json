@@ -1,0 +1,4 @@
+﻿{  ci: {
+  collect: { url: [http://localhost:5173/], startServerCommand: npm run -w @scm/materials dev },
+  assert: { assertions: { categories:performance: [warn, { minScore: 0.8 }] } }
+}}
